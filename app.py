@@ -4,4 +4,5 @@ import pandas as pd
 st.title('CAR PREDICTION')
 st.write("This model predicts car price using below features.")
 
-pd.read_csv('')
+df=pd.read_csv('car_prediction_cleaned.csv')
+df.head()
