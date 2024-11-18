@@ -17,7 +17,7 @@ A **machine learning-powered** web application built with **Streamlit** for pred
 ### **📋 Prerequisites**
 Make sure you have the following installed:  
 - Python 3.8+ 🐍  
-- Required libraries (install them via 'requirements.txt'):  
+- Required libraries (install them via 'requirements.txt')  
   - streamlit
   - pandas
   - numpy
