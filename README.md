@@ -22,14 +22,27 @@ Make sure you have the following installed:
   - pandas
   - numpy
   - scikit-learn
-### **🚀 Steps to Run**
-- git clone
--
--
 
-    
+### **📂 Project Structure**
+├── app.py                   # Streamlit app script
+├── car_prediction_cleaned.csv  # Cleaned dataset
+├── best_model.pkl           # Pre-trained machine learning model
+└── README.md                # Project documentation
 
+### **📊 Dataset Details**
+**- The cleaned dataset contains the following columns:**
 
+**🚗 Brand: Manufacturer of the car**
+**🏷️ Model: Specific car model**
+**⚙️ Transmission: Manual or Automatic**
+**📅 Manufacturing Year: Year of production**
+**⛽ Fuel Type: Diesel, Petrol, CNG, or Electric**
+**🔧 Engine Capacity (CC): Engine power in cubic centimeters**
+**📏 Kilometers Driven: Total distance driven**
+**👤 Ownership: First, second, or third-hand ownership**
+
+### **🤖 Model Information**
+  **- The machine learning model (best_model.pkl) is trained using the dataset to predict car prices based on the above features. The model achieved 90% accuracy during training and testing, ensuring reliable price predictions. It preprocesses inputs by encoding categorical variables and scaling numerical features for optimal performance.**
 
 
 
