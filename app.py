@@ -5,7 +5,7 @@ import streamlit as st
 
 
 
-model = pickle.load(open('model.pkl','rb'))
+model = pickle.load(open('best_model.pkl','rb'))
 
 car_data = pd.read_csv('https://raw.githubusercontent.com/kambletejas218/car-prediction/refs/heads/main/car_prediction_cleaned.csv')
 
