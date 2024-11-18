@@ -24,25 +24,30 @@ Make sure you have the following installed:
   - scikit-learn
 
 ### **📂 Project Structure**
-├── app.py                   # Streamlit app script <br>
-├── car_prediction_cleaned.csv  # Cleaned dataset <br>
-├── best_model.pkl           # Pre-trained machine learning model <br>
-└── README.md                # Project documentation <br>
+├── app.py                    # Streamlit app script <br>
+├── car_prediction_cleaned.csv   # Cleaned dataset <br>
+├── best_model.pkl            # Pre-trained machine learning model <br>
+└── README.md                 # Project documentation <br>
 
 ### **📊 Dataset Details**
-**- The cleaned dataset contains the following columns:**
+**The cleaned dataset contains the following columns:**
 
-**🚗 Brand: Manufacturer of the car**
-**🏷️ Model: Specific car model**
-**⚙️ Transmission: Manual or Automatic**
-**📅 Manufacturing Year: Year of production**
-**⛽ Fuel Type: Diesel, Petrol, CNG, or Electric**
-**🔧 Engine Capacity (CC): Engine power in cubic centimeters**
-**📏 Kilometers Driven: Total distance driven**
-**👤 Ownership: First, second, or third-hand ownership**
+ - 🚗 Brand: Manufacturer of the car <br>
+ - 🏷️ Model: Specific car model <br>
+ - ⚙️ Transmission: Manual or Automatic <br>
+ - 📅 Manufacturing Year: Year of production <br>
+ - ⛽ Fuel Type: Diesel, Petrol, CNG, or Electric <br>
+ - 🔧 Engine Capacity (CC): Engine power in cubic centimeters <br>
+ - 📏 Kilometers Driven: Total distance driven <br>
+ - 👤 Ownership: First, second, or third-hand ownership <br>
 
 ### **🤖 Model Information**
   **- The machine learning model (best_model.pkl) is trained using the dataset to predict car prices based on the above features. The model achieved 90% accuracy during training and testing, ensuring reliable price predictions. It preprocesses inputs by encoding categorical variables and scaling numerical features for optimal performance.**
 
+### **🌟 Acknowledgments**
 
+**Thanks to the developers of:**
 
+  - Streamlit for the interactive UI framework
+  - Pandas & NumPy for data manipulation
+  - Scikit-learn for the model training
