@@ -24,10 +24,10 @@ Make sure you have the following installed:
   - scikit-learn
 
 ### **📂 Project Structure**
-├── app.py                   # Streamlit app script
-├── car_prediction_cleaned.csv  # Cleaned dataset
-├── best_model.pkl           # Pre-trained machine learning model
-└── README.md                # Project documentation
+├── app.py                   # Streamlit app script <br>
+├── car_prediction_cleaned.csv  # Cleaned dataset <br>
+├── best_model.pkl           # Pre-trained machine learning model <br>
+└── README.md                # Project documentation <br>
 
 ### **📊 Dataset Details**
 **- The cleaned dataset contains the following columns:**
